@@ -1,0 +1,17 @@
+*{ box-sizing: border-box;}
+
+body {
+  background: #e8eaef;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.szamologep {
+  width: 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+}
+
