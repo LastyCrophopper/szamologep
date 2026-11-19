@@ -11,7 +11,40 @@ body {
 .szamologep {
   width: 400px;
   background: white;
-  padding: 25px;
+   padding: 25px;
   border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+   margin: 0 0 20px;
+}
+
+#kijelzo {
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 15px;
+    border: none;
+    border-radius: 15px;
+    background: #dcdee2;
+    margin-bottom: 20px;
+}
+
+.gombok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+button {
+     height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
 }
 
